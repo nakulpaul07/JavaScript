@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var ages = [10,2,30,40,22,40,54];
+        document.write(b+ "<br><br>");
+
+        var b = ages.filter(checkAdult);
+        document.write(b + "<br><br>")
+
+        function checkAdult(age){
+
+            return age>=20;
+        }
+
+
+        var ages = [10,2,30,40,22,40,54];
+        document.write(ages+ "<br><br>");
+
+        var b = ages.every(checkAdult);
+        document.write(ages + "<br><br>")
+
+        function checkAdult(age){
+
+            return age>=67;
+        }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
