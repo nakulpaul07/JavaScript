@@ -8,13 +8,17 @@
 
     <script>
 
-        let a = prompt("Enter Time")
+        let a = prompt("Enter Time based on 24:00")
         // let a = 7
 
         if  (a >= 1 && a <= 12) {
-            alert("It's AM")
-        } else if (a >= 13 && a<=24  ) {
-            alert("It's PM")
+            alert("It's AM Have a good day")
+        } else if (a >= 13 && a<=18  ) {
+            alert("It's PM Have a good Afternoon")
+        }
+        else if (a>=19 && a<=24){
+            alert("It's AM Have a good night")
+
         }
         else if(a > 24){
             alert("Take a Number From 1-24")
